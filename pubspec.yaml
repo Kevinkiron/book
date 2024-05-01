@@ -1,0 +1,36 @@
+name: machine_test
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  google_fonts: ^6.1.0  
+  gap: ^3.0.1
+  dio: ^5.4.3
+  lottie: ^3.1.0
+
+dev_dependencies: 
+  flutter_lints: 3.0.2
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons:  
+
+flutter_icons:
+  image_path: "assets/images/logo_books.png" 
+  android: true
+  ios: true    
+
+
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
