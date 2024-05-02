@@ -42,7 +42,7 @@ class AppButton extends StatelessWidget {
             child: Kstyles().reg(
               size: 18,
               color: book.isRead.value ? Colors.white : Colors.blueAccent,
-              text: book.isRead.value ? "UNREAD" : "READ",
+              text: book.isRead.value ? "READ" : "UNREAD",
               fontWeight: FontWeight.w600,
             ),
           ),
